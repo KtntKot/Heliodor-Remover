@@ -13,6 +13,10 @@ public class Main {
         heliodors.add(new File(szczurLocalization+"\\Heliodor"));
         heliodors.add(new File(VersionSzczur+"\\Heliodor.jar"));
         heliodors.add(new File(VersionSzczur+"\\Heliodor.json"));
+        heliodors.add(new File(VersionSzczur+"\\heliodor_assets\\font.ttf"));
+        heliodors.add(new File(VersionSzczur+"\\heliodor_assets\\font2.ttf"));
+        heliodors.add(new File(VersionSzczur+"\\heliodor_assets\\icons.ttf"));
+        heliodors.add(new File(VersionSzczur+"\\heliodor_assets\\Verdana.ttf"));
         heliodors.add(new File(VersionSzczur));
         int ratyWykryte = 0;
         for(File f : heliodors){
